@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "social_medias",
+  "info": {
+    "singularName": "social-media",
+    "pluralName": "social-medias",
+    "displayName": "socialMedia "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "para": {
+      "type": "string"
+    },
+    "socialmedia": {
+      "displayName": "socialmedia",
+      "type": "component",
+      "repeatable": true,
+      "component": "socialmedia.socialmedia"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "companyAddress": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_services",
+  "info": {
+    "displayName": "Services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "type": "string"
+    },
+    "service": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::service.service"
+    }
+  }
+}

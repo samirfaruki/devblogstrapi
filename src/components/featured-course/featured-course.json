@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_featured_course_featured_courses",
+  "info": {
+    "displayName": "featuredCourse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "Paragraph": {
+      "type": "richtext"
+    },
+    "announcements": {
+      "type": "richtext"
+    }
+  }
+}

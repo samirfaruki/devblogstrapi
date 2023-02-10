@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_buttons",
+  "info": {
+    "displayName": "buttons"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

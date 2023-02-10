@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "shortlogo": {
+      "type": "boolean"
+    },
+    "menu": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::course.course"
+    },
+    "SocialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "socialmedia.socialmedia"
+    },
+    "showProfileLink": {
+      "type": "boolean"
+    }
+  }
+}

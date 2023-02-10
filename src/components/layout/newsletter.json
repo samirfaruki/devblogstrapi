@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_newsletter_s",
+  "info": {
+    "displayName": "newsletter "
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "Paragraph": {
+      "type": "richtext"
+    }
+  }
+}

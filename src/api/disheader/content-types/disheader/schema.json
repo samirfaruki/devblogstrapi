@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "disheaders",
+  "info": {
+    "singularName": "disheader",
+    "pluralName": "disheaders",
+    "displayName": "disheader",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "showBlogger": {
+      "type": "boolean"
+    },
+    "menu": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::menu.menu"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": true,
+      "component": "socialmedia.socialmedia"
+    }
+  }
+}

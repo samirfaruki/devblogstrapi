@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_post_post_selections",
+  "info": {
+    "displayName": "postSelection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "paragragh": {
+      "type": "richtext"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    },
+    "sort": {
+      "type": "enumeration",
+      "enum": [
+        "latestPost",
+        "featuredPost",
+        "tagRelatedPost"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "courses": {
+      "type": "enumeration",
+      "enum": [
+        "featuredcourse",
+        "latestcourse"
+      ]
+    }
+  }
+}

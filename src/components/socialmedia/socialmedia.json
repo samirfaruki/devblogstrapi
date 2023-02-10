@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_socialmedia_socialmedias",
+  "info": {
+    "displayName": "socialmedia",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "linkForSocial": {
+      "type": "enumeration",
+      "enum": [
+        "github",
+        "stackoverflow",
+        "youtube",
+        "facebook"
+      ]
+    },
+    "Link": {
+      "type": "string"
+    },
+    "profile": {
+      "type": "boolean"
+    }
+  }
+}

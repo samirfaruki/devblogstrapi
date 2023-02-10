@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_layout_information",
+  "info": {
+    "displayName": "information"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
