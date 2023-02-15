@@ -1,7 +1,8 @@
 'use strict';
 
-const getReposController = require('./getReposController');
-
+const getReposController = require('./get-repos-controller');
+const projectController=require("./project-controller");
 module.exports = {
   getReposController,
+  projectController,
 };
